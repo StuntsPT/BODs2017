@@ -5,6 +5,21 @@
     src: url(../fonts/ubuntu-r.ttf);
 }
 
+@font-face {
+    font-family: Matrix;
+    src: url(../fonts/matrix.ttf);
+}
+
+/* unvisited link */
+a:link {
+    color: lightgreen;
+}
+
+/* visited link */
+a:visited {
+    color: lightgreen;  font-style: italic;
+}
+
 
 body {
     font-size: 36px;
@@ -109,7 +124,7 @@ blockquote q:after  { content: '\2019'; }
 /* titleslide: displaying a title(h1) and subtitle(h2) on the same slide */
 div.titleslide { text-align: center; margin-left: 0px !important; width: 1024px !important;}
 div.titleslide h1 { padding-top: 140px; font-size: 80px; font-weight: bold;}
-div.titleslide h2 { text-align: right; font-size: 25px; font-family: "Ringbearer";}
+div.titleslide h2 { text-align: right; font-size: 32px; font-family: "Matrix";}
 div.titleslide p { text-align: left; color: white; font-size: 18px; line-height: 80%;}
 
 /* imageslide: covering a whole slide with an image */
@@ -126,7 +141,7 @@ div.imageslide h1 { position: absolute; z-index: 3; left: 40px; top: -8px; }
 div.imageslide h2 { position: absolute; z-index: 3; right: 10px; top: 550px; }
 div.imageslide h3 { position: absolute; z-index: 3; left: 10px; top: 695px; font-size: 20px; }
 div.imageslide h4 { position: absolute; z-index: 3; left: 10px; top: 715px; font-size: 18px; }
-div.imageslide h5 { position: absolute; z-index: 3; left: 80px; top: 645px; font-size: 20px; font-weight: bold;}
+div.imageslide h5 { position: absolute; z-index: 3; left: 20px; top: 645px; font-size: 20px; font-weight: bold;}
 
 
 /* black and white header for use with imageslide */
