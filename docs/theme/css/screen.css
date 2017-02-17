@@ -127,6 +127,23 @@ div.titleslide h1 { padding-top: 140px; font-size: 80px; font-weight: bold;}
 div.titleslide h2 { text-align: right; font-size: 32px; font-family: "Matrix";}
 div.titleslide p { text-align: left; color: white; font-size: 18px; line-height: 80%;}
 
+/* coverslide: for making full image slides to use as cover */
+div.slides div.coverslide {margin: 0; width: 1024px; height: 768px;}
+div.coverslide img { 
+  position: absolute; 
+  top: 0; left: 0; 
+  width: 1024px; 
+  max-width: 1024px; max-height: 768px;
+  z-index: 0; 
+}
+
+div.coverslide h1 { position: absolute; z-index: 3; left: 40px; top: -8px; }
+div.coverslide h2 { position: absolute; z-index: 3; right: 10px; top: 550px; }
+div.coverslide h3 { position: absolute; z-index: 3; left: 10px; top: 695px; font-size: 20px; }
+div.coverslide h4 { position: absolute; z-index: 3; left: 10px; top: 715px; font-size: 18px; }
+div.coverslide h5 { position: absolute; z-index: 3; left: 20px; top: 645px; font-size: 20px; font-weight: bold;}
+
+
 /* imageslide: covering a whole slide with an image */
 div.slides div.imageslide {margin: 0; width: 1024px; height: 768px;}
 div.imageslide img { 
@@ -137,12 +154,15 @@ div.imageslide img {
   z-index: 0; 
 }
 
-div.imageslide h1 { position: absolute; z-index: 3; left: 40px; top: -8px; }
-div.imageslide h2 { position: absolute; z-index: 3; right: 10px; top: 550px; }
-div.imageslide h3 { position: absolute; z-index: 3; left: 10px; top: 695px; font-size: 20px; }
-div.imageslide h4 { position: absolute; z-index: 3; left: 10px; top: 715px; font-size: 18px; }
-div.imageslide h5 { position: absolute; z-index: 3; left: 20px; top: 645px; font-size: 20px; font-weight: bold;}
-
+/* compimageslide: covering a whole slide with a composite image */
+div.slides div.compimageslide {margin: 10; width: 980px; height: 768px;}
+div.compimageslide img { 
+  position: absolute; 
+  top: 0; left: 0; 
+  width: 1024px; 
+  max-width: 1024px; max-height: 768px;
+  z-index: 0; 
+}
 
 /* black and white header for use with imageslide */
 div.whiteheading h1 {color: white !important;}
