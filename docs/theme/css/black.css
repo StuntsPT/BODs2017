@@ -3,12 +3,12 @@
 
 body {
     color: #eee;
-    background-color: #333; /* Colour outside of slide */
+    background-color: #000000; /* Colour outside of slide */
 }
 
 div.presentation, div.slide {
   /*background-color: black; /* colour of the slide */
-  background-image: url(../../assets/slide_bg.jpg);
+  background-image: url(../../assets/matrixDNA.jpg);
 }
 
 div.slide h1, div.slide h2, div.slide h3, div.slide h4, div.slide h5, div.slide h6 {

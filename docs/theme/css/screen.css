@@ -25,7 +25,7 @@ body {
     font-size: 36px;
     font-family: "Ubuntu", "Helvetica", "Arial", "Liberation Sans", sans-serif;
     color: black;
-    background-color: #333; /* Colour outside of slide */
+    background-color: #000000; /* background color */
 }
 
 div.presentation, div.slide {
@@ -35,6 +35,7 @@ div.presentation, div.slide {
 div.slide h1, div.slide h2, div.slide h3, div.slide h4, div.slide h5, div.slide h6 {
   color: navy;
   font-weight: normal;
+  margin-left: 20px;
 }
 
 pre {
@@ -232,9 +233,8 @@ div.slides {
 }
 
 div.slide {
-  margin-left: 20px; /* Nice big margin */
   margin-top : 0px;
-  width      : 984px;
+  width      : 1024px;
   height     : 768px;
   position   : absolute;
   overflow   : hidden;
@@ -517,7 +517,7 @@ body.expose .slide:hover aside.page_number {
 
 /* Presenter Mode */
 body.presenter_view, body.presenter_view div.presentation {
-  background-color: #333 !important;
+  background-color: #000000;
 }
 body.presenter_view div.slides {
   margin-left: -40px !important;
