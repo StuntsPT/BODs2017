@@ -156,7 +156,7 @@ div.imageslide img {
 }
 
 /* compimageslide: covering a whole slide with a composite image */
-div.slides div.compimageslide {margin: 10; width: 980px; height: 768px;}
+div.slides div.compimageslide {margin: 10; width: 1024px; height: 768px;}
 div.compimageslide img { 
   position: absolute; 
   top: 0; left: 0; 
