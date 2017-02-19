@@ -139,7 +139,7 @@ div.coverslide img {
 }
 
 div.coverslide h1 { position: absolute; z-index: 3; left: 40px; top: -8px; }
-div.coverslide h2 { position: absolute; z-index: 3; right: 10px; top: 550px; }
+div.coverslide h2 { position: absolute; z-index: 3; right: 40px; top: 550px; }
 div.coverslide h3 { position: absolute; z-index: 3; left: 10px; top: 695px; font-size: 20px; }
 div.coverslide h4 { position: absolute; z-index: 3; left: 10px; top: 715px; font-size: 18px; }
 div.coverslide h5 { position: absolute; z-index: 3; left: 20px; top: 645px; font-size: 20px; font-weight: bold;}
