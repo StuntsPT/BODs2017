@@ -186,6 +186,10 @@ div.github h1 { margin: 40px; }
 div.github li { margin: 20px; }
 
 
+/* alt_background: provide an alternaive background fo rthe slide */
+div.slides div.alt_background {background-image: url(../../assets/montado.jpg);}
+
+
 /***************************************************************************/
 /* Syntax highlighting is by Pygments - select via config file */
 .lineno {color: #aaa; }  /* Line numbers */
