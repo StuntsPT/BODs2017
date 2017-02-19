@@ -110,6 +110,18 @@ blockquote q:after  { content: '\2019'; }
   font-size: 24px;
 }
 
+.muchsmaller section {
+  font-size: 28px;
+}
+
+.muchsmaller div h1 {
+  font-size: 56px;
+}
+
+.muchsmaller section pre {
+  font-size: 22px;
+}
+
 .larger section {
   font-size: 42px;
 }
