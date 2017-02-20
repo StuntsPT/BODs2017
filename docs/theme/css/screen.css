@@ -189,7 +189,7 @@ div.slides div.github {
     width: 1024px;
     height: 768px;
 }
-div.github img {
+div.github .forkme {
     position: absolute;
     top: 0px;
     left: 771px;
@@ -198,7 +198,7 @@ div.github h1 { margin: 40px; }
 div.github li { margin: 20px; }
 
 
-/* alt_background: provide an alternaive background fo rthe slide */
+/* alt_background: provide an alternaive background for the slide */
 div.slides div.alt_background {background-image: url(../../assets/montado.jpg);}
 
 
