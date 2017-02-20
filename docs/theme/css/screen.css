@@ -185,7 +185,6 @@ div.blackheading h1 {color: black !important;}
 
 /* slides with "fork me on github corner" */
 div.slides div.github {
-    margin: 0;
     width: 1024px;
     height: 768px;
 }
@@ -194,8 +193,6 @@ div.github .forkme {
     top: 0px;
     left: 771px;
 }
-div.github h1 { margin: 40px; }
-div.github li { margin: 20px; }
 
 
 /* alt_background: provide an alternaive background for the slide */
