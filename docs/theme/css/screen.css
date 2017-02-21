@@ -194,6 +194,11 @@ div.github .forkme {
     left: 771px;
 }
 
+div.acknowledgements .ack {
+    position: absolute;
+    top: 670px;
+    left: 750px;
+}
 
 /* alt_background: provide an alternaive background for the slide */
 div.slides div.alt_background {background-image: url(../../assets/montado.jpg);}
