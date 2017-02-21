@@ -194,6 +194,7 @@ div.github .forkme {
     left: 771px;
 }
 
+/* slides with an image on the bottom right corner */
 div.acknowledgements .ack {
     position: absolute;
     top: 670px;
